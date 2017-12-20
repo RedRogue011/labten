@@ -1,0 +1,71 @@
+/*
+    Under 400 px
+*/
+
+body {
+      background-color: black;
+}
+
+.my-box {
+      background-color: whitesmoke;
+      width: 35%;
+      height: 300px;
+      
+
+}
+.my-box1 {
+      background-color: whitesmoke;
+      width: 35%;
+      height: 300px;
+}
+
+/*
+    Phone
+*/
+@media (min-width: 400px) {
+    .my-box {
+      background-color: darkblue;
+      width: 100%;
+      font-size: 16px;
+    }
+    .my-box1 {
+      background-color: yellow;
+      width: 35%;
+    }
+}
+
+/*
+    Tablet
+*/
+@media (min-width: 768px) {
+    .my-box {
+      background-color: whitesmoke;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    .my-box1 {
+      background-color: whitesmoke;
+      width: 35%;
+      
+    }
+}
+
+/*
+    Desktop
+*/
+@media (min-width: 1200px) {
+    .my-box {
+      background-color: blue;
+      width: 49%;
+      font-size: 20px;
+      display:inline-block;
+    }
+
+    .my-box1 {
+      background-color: whitesmoke;
+      width: 49%;
+      font-size: 20px;
+      display:inline-block;
+    }
+}
